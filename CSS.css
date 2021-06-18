@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	width: 1000px;
+	margin: 0 auto;
+}
+.background{
+	width: 100%;
+	height: 1500px;
+	background: url("Img/—Pngtree—black three-dimensional background_538629.png"),pink;
+	background-size: 950px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.background-2{
+	width: 100%;
+	height: 1500px;
+	background: url("Img/—Pngtree—geometric golden abstract lines _3554783.png"),url(Img/lWeOGK.gif),#080A30;
+	background-size: cover,50%;
+	background-position: center,500px 100px;
+	background-repeat: no-repeat;
+	background-attachment: scroll,fixed;
+}
+
+.background-3{
+	width: 100%;
+	height: 300px;
+	background: url("Img/542-36.png"),url("Img/542-19.png"),#8E4647;	
+	background-size: 100px, 100px, 100px;
+	background-position: left center,right center;
+	background-repeat: no-repeat;
+}
