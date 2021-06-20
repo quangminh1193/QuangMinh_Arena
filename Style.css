@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+
+.w3-image1{
+	width: 1920px; 
+	height: 1080px;
+	background: url("img/images/images/Iron-man-gif7.gif");
+}
+img{vertical-align:middle}a{color:inherit}
+
+
+.container{
+	width: 100%;
+	margin: auto;
+	padding-left: 25px;
+	padding-right:  25px;
+}
+
+
+
+.row{
+	display: flex;
+	align-items: center;
+}
+.footer{
+	background: #f32609;
+	color: #8a8a8a;
+	font-size: 14px;
+	padding: 60px 0 20px;
+}
+.footer p{
+	color: #8a8a8a;
+}
+.footer h3{
+	color: #fff;
+	margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+	min-width: 300px;
+	margin-bottom: 20px;
+}
+.footer-col-1{
+	flex-basis: 30%;
+}
+.footer-col-2{
+	flex: 1;
+	text-align: center;
+}
+.footer-col-2 img{
+	width: 180px;
+	margin-bottom: 20px;
+/*	transform: translateX(30%)*/
+}
+.app-logo{
+	margin-top: 20px;
+}
+.app-logo img{
+	width: 140px;
+}
+
+.w3-right1{float:right!important}
